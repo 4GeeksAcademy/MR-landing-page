@@ -1,13 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "./Navbar";
+import Jumbotron from "./Jumbotron";
+import Card from "./CardProduct/Card";
 import Footer from "./Footer";
-import Section from "./section";
 const Home = () => {
   return (
     <>
-      <Navbar />;
-      <Header />;
-      <Section />
+      <Navbar />
+      <div className="container">
+        <Jumbotron />
+        <div className="row">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
+      </div>
       <Footer />
     </>
   );
