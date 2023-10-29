@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-secondary bg-secondary">
         <div className="container px-4 px-lg-5">
           <a className="navbar-brand" href="#!">
             Start Bootstrap
